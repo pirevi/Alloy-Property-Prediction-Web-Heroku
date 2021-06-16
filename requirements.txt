@@ -7,3 +7,4 @@ Werkzeug==0.15.5
 numpy>=1.9.2
 pandas>=0.19
 regex>=2021.4.4
+pickle5>=0.0.11
