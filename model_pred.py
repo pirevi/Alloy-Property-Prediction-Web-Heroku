@@ -45,5 +45,5 @@ class ModelPred:
             return f'C11: {c11:.3f}, C22: {c22:.3f}, C33: {c33:.3f}, C12: {c12:.3f}, C13: {c13:.3f}, C23: {c23:.3f}, C44: {c44:.3f}, C55: {c55:.3f}, C66: {c66:.3f}, B: {B:.3f}, G: {G:.3f}, PR: {PR:.3f}\n'
 
         except (IndexError, ZeroDivisionError):
-            return 'ERROR:\nWrong Input. Format Example: Al2Ti3Ag6\n'
+            return 'ERROR:\nWrong Input! Format Example: Ni3Al, FeNiCrAl\n'
 
